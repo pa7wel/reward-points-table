@@ -1,0 +1,76 @@
+{
+  "transactions": [
+    {
+     "customerId": 1,
+     "name": "Transaction 12",
+     "purchase": 500,
+     "date": "2022-10-03"
+    },
+    {
+      "customerId": 1,
+      "name": "Transaction 13",
+      "purchase": 75,
+      "date": "2022-11-11"
+    },
+    {
+      "customerId": 1,
+      "name": "Transaction 14",
+      "purchase": 160,
+      "date": "2022-11-03"
+    },
+    {
+      "customerId": 1,
+      "name": "Transaction 15",
+      "purchase": 30,
+      "date": "2022-09-08"
+    },
+    {
+      "customerId": 2,
+      "name": "Transaction 20",
+      "purchase": 120,
+      "date": "2022-10-03"
+    },
+    {
+      "customerId": 2,
+      "name": "Transaction 21",
+      "purchase": 65,
+      "date": "2022-11-11"
+    },
+    {
+      "customerId": 2,
+      "name": "Transaction 22",
+      "purchase": 180,
+      "date": "2022-11-03"
+    },
+    {
+      "customerId": 2,
+      "name": "Transaction 23",
+      "purchase": 110,
+      "date": "2022-10-08"
+    },
+    {
+      "customerId": 2,
+      "name": "Transaction 20",
+      "purchase": 120,
+      "date": "2022-10-03"
+    },
+    {
+      "customerId": 3,
+      "name": "Transaction 21",
+      "purchase": 89,
+      "date": "2022-11-11"
+    },
+    {
+      "customerId": 3,
+      "name": "Transaction 22",
+      "purchase": 134,
+      "date": "2022-11-03"
+    },
+    {
+      "customerId": 3,
+      "name": "Transaction 23",
+      "purchase": 233,
+      "date": "2022-10-08"
+    }
+  ]
+}

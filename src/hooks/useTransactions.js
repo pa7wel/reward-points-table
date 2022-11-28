@@ -3,14 +3,20 @@ import {API_URL} from "../const/API_URL";
 
 export const useTransactions = () => {
     const [transactions, setTransactions] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     const getData = async () => {
         try {
+            setLoading(true);
             const response = await fetch(API_URL);
             const data = await response.json();
-            if (response && data) setTransactions(data);
-        } catch {
-            console.log('Data cannot be fetched')
+            if (response && data) {
+                setTransactions(data);
+                setLoading(false);
+            }
+        } catch (error) {
+            setLoading(false);
+            console.error(error);
         }
     }
 
@@ -18,5 +24,5 @@ export const useTransactions = () => {
         getData();
     }, [])
 
-    return {transactions}
+    return {transactions, loading}
 }
